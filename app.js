@@ -20,15 +20,10 @@ function getItem() {
 const formHTML = `
   <div>
   <form action="/abc" method="post">
-    <label >ID:</label>
-    <input type="text" id="id" name="id">
-
     <label>Name:</label>
     <input type="text" id="name" name="name">
-
     <label>Description:</label>
     <input type="text" id="des" name="des">
-
     <input type="submit" value="Submit">
   </form>
   </div>
